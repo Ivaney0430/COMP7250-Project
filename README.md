@@ -26,19 +26,19 @@ pip install -r requirements.txt
 
 ##Result
 Deep Learning Task |   Model    | SGD Optimizer | Result (Test Loss) 
--------------------|------------|---------------|------------------
-                   | Simple CNN |      SGD      |
-                   |            |      Adam     |
-                   |            |    RMSprop    |
-                   |            |     NAdam     |
-  Convolutional    |------------|---------------|------------------
-  Neural Network   |            |      SGD      |
-                   |  Resnet50  |      Adam     |
-                   |            |    RMSprop    |
-                   |            |     NAdam     |
--------------------|------------|---------------|------------------
-                   |            |      SGD      |
-      Recurrent    |    LSTM    |      Adam     |
-   Neural Networl  |            |    RMSprop    |
-                   |            |     NAdam     |
+------------------ | ---------- | ------------- | -----------------
+  Convolutional    | Simple CNN |      SGD      |
+  Neural Network   |     ^^     |      Adam     |
+         ^^        |     ^^     |    RMSprop    |
+         ^^        |     ^^     |     NAdam     |
+         ^^        | ---------- |-------------- |------------------
+         ^^        |  Resnet50  |      SGD      |
+         ^^        |     ^^     |      Adam     |
+         ^^        |     ^^     |    RMSprop    |
+         ^^        |     ^^     |     NAdam     |
+------------------ | ---------- |-------------- |------------------
+      Recurrent    |    LSTM    |      SGD      |
+   Neural Networl  |     ^^     |      Adam     |
+         ^^        |     ^^     |    RMSprop    |
+         ^^        |     ^^     |     NAdam     |
  
