@@ -4,12 +4,11 @@
 This project contains a comprehensive study on various Stochastic Gradient Descent (SGD) optimizers and their performance in different deep learning tasks. The project aims to evaluate and compare the convergence behavior and accuracy of multiple SGD variants.
 
 ## Models and Dataset
-Deep Learning Task |   Model    | Dataset 
--------------------|------------|--------
-Convolutional      | Simple CNN |
-Neural Network     | Resnet     |
--------------------|------------|--------
-Recurrent Neural Network|LSTM |
+| **Deep Learning Task**          | **Models**                         | **Datasets**            |
+|----------------------------------|------------------------------------------|---------------------------------|
+| Image Classification             | Convolutional Neural Networks (CNNs)    | CIFAR-10    |
+| Image Segmentation               | Mask R-CNN                       | COCO  |
+| Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | IMDB |
   
 ## SGD Variants 
   - Standard SGD
@@ -25,20 +24,5 @@ pip install -r requirements.txt
 '''
 
 ##Result
-Deep Learning Task |   Model    | SGD Optimizer | Result (Test Loss) 
------------------- | ---------- | ------------- | -----------------
-  Convolutional    | Simple CNN |      SGD      |
-  Neural Network   |     ^^     |      Adam     |
-         ^^        |     ^^     |    RMSprop    |
-         ^^        |     ^^     |     NAdam     |
-         ^^        | ---------- |-------------- |------------------
-         ^^        |  Resnet50  |      SGD      |
-         ^^        |     ^^     |      Adam     |
-         ^^        |     ^^     |    RMSprop    |
-         ^^        |     ^^     |     NAdam     |
------------------- | ---------- |-------------- |------------------
-      Recurrent    |    LSTM    |      SGD      |
-   Neural Networl  |     ^^     |      Adam     |
-         ^^        |     ^^     |    RMSprop    |
-         ^^        |     ^^     |     NAdam     |
- 
+
+
