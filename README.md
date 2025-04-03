@@ -1,16 +1,17 @@
-# COMP7250 Machine Learning Project - A comparison of SGD optimizers
+# COMP7250 Machine Learning Project
+## A comparison of SGD optimizers
 
-## Overview
+### Overview
 This project contains a comprehensive study on various Stochastic Gradient Descent (SGD) optimizers and their performance in different deep learning tasks. The project aims to evaluate and compare the convergence behavior and accuracy of multiple SGD variants.
 
-## Models and Dataset
+### Models and Dataset
 | **Deep Learning Task**          | **Models**                         | **Datasets**            |
 |----------------------------------|------------------------------------------|---------------------------------|
 | Image Classification             | Convolutional Neural Networks (CNNs)    | CIFAR-10    |
 | Image Segmentation               | Mask R-CNN                       | COCO  |
 | Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | IMDB |
   
-## SGD Variants 
+### SGD Variants 
   - Standard SGD
   - Adam
   - RMSprop
