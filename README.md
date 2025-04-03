@@ -24,5 +24,10 @@ pip install -r requirements.txt
 '''
 
 ##Result
+| **Deep Learning Task**          | **Models**                         | **Result**            |
+|----------------------------------|------------------------------------------|---------------------------------|
+| Image Classification             | Convolutional Neural Networks (CNNs)    | (SGD)(Adam)(RMSprop)(NAdam)   |
+| Image Segmentation               | Mask R-CNN                       | (SGD)(Adam)(RMSprop)(NAdam)  |
+| Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | (SGD)(Adam)(RMSprop)(NAdam) |
 
 
