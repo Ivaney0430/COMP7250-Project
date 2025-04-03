@@ -17,7 +17,7 @@ This project contains a comprehensive study on various Stochastic Gradient Desce
   - RMSprop
   - NAdam
 
-## Installation
+### Installation
 ```
 git clone https://github.com/Ivaney0430/COMP7250-Project.git
 cd COMP7250-Project
