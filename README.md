@@ -24,7 +24,7 @@ cd COMP7250-Project
 pip install -r requirements.txt
 ```
 
-##Result
+### Result
 | **Deep Learning Task**          | **Models**                         | **Result**            |
 |----------------------------------|------------------------------------------|---------------------------------|
 | Image Classification             | Convolutional Neural Networks (CNNs)    | (SGD)(Adam)(RMSprop)(NAdam)   |
