@@ -24,9 +24,9 @@ pip install -r requirements.txt
 ```
 
 ### Result
-| **Deep Learning Task**          | **Models**                         | **Result**            |
+| **Deep Learning Task**          | **Models**                         | model file           |
 |----------------------------------|------------------------------------------|---------------------------------|
-| Image Classification             | Convolutional Neural Networks (CNNs)    | (SGD)(Adam)(RMSprop)(NAdam)   |
-| Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | (SGD)(Adam)(RMSprop)(NAdam) |
+| Image Classification             | Convolutional Neural Networks (CNNs)    | Image_Classfication_VGG.ipynb   |
+| Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | Sentiment_analysis_using_LSTM_PyTorch.ipynb |
 
 
