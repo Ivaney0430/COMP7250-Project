@@ -7,9 +7,8 @@ This project contains a comprehensive study on various Stochastic Gradient Desce
 ### Models and Dataset
 | **Deep Learning Task**          | **Models**                         | **Datasets**            |
 |----------------------------------|------------------------------------------|---------------------------------|
-| Image Classification             | Convolutional Neural Networks (CNNs)    | CIFAR-10    |
-| Image Segmentation               | Mask R-CNN                       | COCO  |
-| Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | IMDB |
+| Image Classification             | Convolutional Neural Networks (CNNs) [VGG-19]   | CIFAR-10    |
+| Sentiment Analysis               | Recurrent Neural Networks (RNNs) [LSTM] | IMDB |
   
 ### SGD Variants 
   - Standard SGD
@@ -28,7 +27,6 @@ pip install -r requirements.txt
 | **Deep Learning Task**          | **Models**                         | **Result**            |
 |----------------------------------|------------------------------------------|---------------------------------|
 | Image Classification             | Convolutional Neural Networks (CNNs)    | (SGD)(Adam)(RMSprop)(NAdam)   |
-| Image Segmentation               | Mask R-CNN                       | (SGD)(Adam)(RMSprop)(NAdam)  |
 | Sentiment Analysis               | Recurrent Neural Networks (RNNs)  | (SGD)(Adam)(RMSprop)(NAdam) |
 
 
